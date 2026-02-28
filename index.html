@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anchal Engineering Works – Roorkee, Haridwar</title>
+    <link rel="shortcut icon" href="./public/images/logo.svg" type="image/svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ═══ NAVBAR ═══ -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="#" class="brand-wrap">
+                <img src="./public/images/logo.svg" alt="Engineering Works" width="46" height="46">
+                <div class="brand-text">
+                    Anchal<span>Engineering</span>
+                    <small>Works &middot; Roorkee, Haridwar</small>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+                <ul class="navbar-nav gap-1 align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Machinery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#why">Why Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                    <li class="nav-item ms-lg-2"><a href="#contact" class="btn-pf" style="font-size:.82rem;padding:.45rem 1.2rem;">Get Quote</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ HERO CAROUSEL ═══ -->
+    <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active slide-1">
+                <div class="carousel-caption">
+                    <p class="eyebrow">Anchal Engineering Works</p>
+                    <h1>CNC Laser<br>Cutting Experts</h1>
+                    <p>MS up to 18MM &bull; SS up to 8MM &bull; Aluminium up to 5MM. High-speed precision cuts for every requirement.</p>
+                    <a href="#services" class="btn-pf me-2">Our Services</a>
+                    <a href="#contact" class="btn-ol">Get Quote</a>
+                </div>
+            </div>
+            <div class="carousel-item slide-2">
+                <div class="carousel-caption">
+                    <p class="eyebrow">Power Press &amp; Shearing</p>
+                    <h1>Power Press<br>5 to 50 Ton</h1>
+                    <p>Power press operations from 5 Ton to 50 Ton and sheet shearing up to 3MM thickness with precision and speed.</p>
+                    <a href="#services" class="btn-pf me-2">Our Machinery</a>
+                    <a href="#contact" class="btn-ol">Get Quote</a>
+                </div>
+            </div>
+            <div class="carousel-item slide-3">
+                <div class="carousel-caption">
+                    <p class="eyebrow">NC Bending &amp; Fabrication</p>
+                    <h1>Fabrication<br>Done Right</h1>
+                    <p>NC bending, lathe machining, and custom fabrication services trusted by industries across Uttarakhand.</p>
+                    <a href="#about" class="btn-pf me-2">About Us</a>
+                    <a href="#contact" class="btn-ol">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- ═══ STATS STRIP ═══ -->
+    <div class="stats-strip">
+        <div class="container">
+            <div class="row g-0 text-center">
+                <div class="col-6 col-md-3 py-2">
+                    <div class="stat-num">18 MM</div>
+                    <div class="stat-label">Max MS Laser Cut</div>
+                </div>
+                <div class="col-6 col-md-3 py-2 stat-div">
+                    <div class="stat-num">50 TON</div>
+                    <div class="stat-label">Max Power Press</div>
+                </div>
+                <div class="col-6 col-md-3 py-2 stat-div">
+                    <div class="stat-num">6</div>
+                    <div class="stat-label">Core Services</div>
+                </div>
+                <div class="col-6 col-md-3 py-2 stat-div">
+                    <div class="stat-num">ISO</div>
+                    <div class="stat-label">Quality Standards</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ═══ ABOUT ═══ -->
+    <section id="about" style="background:var(--panel);" class="sp">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-wrap">
+                        <img src="./public/images/company.jpg" alt="Anchal Engineering Works" />
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <h2 class="sh df">About Anchal<br>Engineering Works</h2>
+                    <p class="sub mb-3 mt-3">
+                        <strong style="color:#fff;">Anchal Engineering Works</strong> is a trusted industrial services provider based in Roorkee, Haridwar, Uttarakhand. We specialise in CNC laser cutting, NC bending, power press, sheet shearing, lathe machining, and fabrication services.
+                    </p>
+                    <p class="sub mb-4">
+                        Our facility is equipped with modern CNC laser cutting machines, NC press brakes, power presses (5T–50T), shearing machines, and lathe machines — enabling us to deliver high-quality components with speed and consistency.
+                    </p>
+                    <div class="row g-2 mb-4">
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> CNC Laser Cutting – MS/SS/Al</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> NC Bending of Sheet Metal</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> Power Press 5 Ton to 50 Ton</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> Sheet Shearing up to 3 MM</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> Lathe Machine Work</div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="af"><i class="bi bi-check2-circle"></i> Custom Fabrication</div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-pf">Talk to Our Team</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ SERVICES ═══ -->
+    <section id="services" style="background:var(--navy);" class="sp">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sh df" style="display:block;">Services Available</h2>
+                <p class="sub mx-auto mt-2">All services available in-house with quick turnaround at our Roorkee facility.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-lightning-charge"></i></div>
+                        <h5>CNC Laser Cutting</h5>
+                        <p>CNC laser cutting of sheet metal components.<br>
+                            &bull; <strong style="color:var(--light);">M.S</strong> – up to 18 MM<br>
+                            &bull; <strong style="color:var(--light);">S.S</strong> – up to 8 MM<br>
+                            &bull; <strong style="color:var(--light);">Aluminium</strong> – up to 5 MM</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-arrow-left-right"></i></div>
+                        <h5>NC Bending</h5>
+                        <p>NC bending of sheet metal components with high accuracy and repeatability for complex profiles and large-volume orders.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-hammer"></i></div>
+                        <h5>Power Press Machine</h5>
+                        <p>Power press operations from <strong style="color:var(--light);">5 Ton to 50 Ton</strong> capacity — punching, blanking, embossing, and forming.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-scissors"></i></div>
+                        <h5>Sheet Shearing</h5>
+                        <p>Sheet shearing machine cutting up to <strong style="color:var(--light);">3 MM</strong> thickness. Clean straight cuts on MS, SS, and aluminium sheets.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-gear-wide-connected"></i></div>
+                        <h5>Lathe Machine</h5>
+                        <p>Lathe machining for turning, facing, threading, and finishing of cylindrical components to close tolerances.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="svc-card">
+                        <div class="svc-icon"><i class="bi bi-tools"></i></div>
+                        <h5>Fabrication</h5>
+                        <p>Custom metal fabrication — welding, assembly, and structural fabrication for industrial and commercial projects.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ PRODUCT / MACHINERY CAROUSEL ═══ -->
+    <section id="products" style="background:var(--panel);" class="sp">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sh df" style="display:block;">Our Machinery</h2>
+                <p class="sub mx-auto mt-2">State-of-the-art equipment ensuring precision output on every job.</p>
+            </div>
+            <div id="prodCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/cnc-laser-cutting.avif" alt="CNC Laser Cutting" /></div>
+                                    <div class="cb">
+                                        <!-- <span class="badge badge-bl mb-2">CORE SERVICE</span> -->
+                                        <div class="ct">CNC Laser Cutting Machine</div>
+                                        <p class="cx">MS–18MM &bull; SS–8MM &bull; Al–5MM high-speed precision cutting.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/nc-bending.jpg" alt="NC Bending" /></div>
+                                    <div class="cb">
+                                        <div class="ct">NC Press Brake (Bending)</div>
+                                        <p class="cx">Numerically controlled bending for accurate, repeatable sheet metal forming.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/power-press.jpg" alt="Power Press" /></div>
+                                    <div class="cb">
+                                        <div class="ct">Power Press Machine</div>
+                                        <p class="cx">5 Ton to 50 Ton capacity for punching, blanking, and forming.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/sheet-shearing.jpg" alt="Sheet Shearing" /></div>
+                                    <div class="cb">
+                                        <!-- <span class="badge badge-bl mb-2">AVAILABLE</span> -->
+                                        <div class="ct">Sheet Shearing Machine</div>
+                                        <p class="cx">Clean straight cuts on MS, SS, and Al sheets up to 3 MM.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/lathe-machine.jpg" alt="Lathe Machine" /></div>
+                                    <div class="cb">
+                                        <div class="ct">Lathe Machine</div>
+                                        <p class="cx">Turning, facing, threading, and finishing of cylindrical components.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="prod-card">
+                                    <div class="iw"><img src="./public/images/services/fabrication.webp" alt="Fabrication" /></div>
+                                    <div class="cb">
+                                        <div class="ct">Fabrication &amp; Welding</div>
+                                        <p class="cx">Custom welding, assembly, and structural fabrication to specification.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex justify-content-center align-items-center gap-3 mt-4">
+                    <button class="ctrl-btn" type="button" data-bs-target="#prodCarousel" data-bs-slide="prev"><i class="bi bi-arrow-left"></i></button>
+                    <button class="ctrl-btn" type="button" data-bs-target="#prodCarousel" data-bs-slide="next"><i class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ WHY CHOOSE US ═══ -->
+    <section id="why" style="background:var(--navy);" class="sp">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sh df" style="display:block;">Why Choose Anchal Engineering</h2>
+                <p class="sub mx-auto mt-2">Reliable, accurate, and fast — that's our promise on every job.</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-6 col-lg-3">
+                    <div class="why-card">
+                        <div class="wi"><i class="bi bi-lightning-charge-fill"></i></div>
+                        <h6>Latest CNC Technology</h6>
+                        <p>Modern CNC laser machines for superior cut quality and speed across all materials.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="why-card">
+                        <div class="wi"><i class="bi bi-speedometer2"></i></div>
+                        <h6>Fast Turnaround</h6>
+                        <p>Quick processing and delivery to keep your production lines running on schedule.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="why-card">
+                        <div class="wi"><i class="bi bi-patch-check-fill"></i></div>
+                        <h6>High Precision</h6>
+                        <p>Tight tolerances and consistent quality on every batch, every time.</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3">
+                    <div class="why-card">
+                        <div class="wi"><i class="bi bi-headset"></i></div>
+                        <h6>Dedicated Support</h6>
+                        <p>Personal service from enquiry to delivery — always reachable on phone or WhatsApp.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FAQ ACCORDION ═══ -->
+    <section id="faq" style="background:var(--panel);" class="sp">
+        <div class="container">
+            <div class="row g-5 align-items-start">
+                <div class="col-lg-4">
+                    <h2 class="sh df">Frequently<br>Asked Questions</h2>
+                    <p class="sub mt-3">Common questions about our services and capabilities.</p>
+                    <a href="#contact" class="btn-pf mt-3 d-inline-block">Ask Us Directly</a>
+                </div>
+                <div class="col-lg-8">
+                    <div class="accordion" id="faqAcc">
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#f1">
+                                    What materials can you cut with the CNC laser?
+                                </button>
+                            </h2>
+                            <div id="f1" class="accordion-collapse collapse show" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">We cut Mild Steel (MS) up to 18 MM, Stainless Steel (SS) up to 8 MM, and Aluminium (Al) up to 5 MM thickness using our CNC laser cutting machines.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f2">
+                                    What is the capacity of your power press machine?
+                                </button>
+                            </h2>
+                            <div id="f2" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Our power press machines operate from 5 Ton to 50 Ton capacity, suitable for punching, blanking, embossing, forming, and other sheet metal press operations.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f3">
+                                    What thickness can your shearing machine cut?
+                                </button>
+                            </h2>
+                            <div id="f3" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Our sheet shearing machine can cut up to 3 MM thickness on MS, SS, and aluminium sheets with clean, straight edges.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f4">
+                                    Do you accept custom fabrication orders?
+                                </button>
+                            </h2>
+                            <div id="f4" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Yes, we accept custom fabrication orders based on your drawings or samples. Share your requirements with us via phone, WhatsApp, or email and we will provide a prompt quote.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f5">
+                                    Where are you located and do you deliver?
+                                </button>
+                            </h2>
+                            <div id="f5" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">We are located at Kh. No. 192-214, Near Uttranchal Steel, Salempur Rajputana, Roorkee – 247667, Haridwar (U.K.). We serve clients across Uttarakhand and surrounding regions and can arrange delivery as per your requirement.</div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#f6">
+                                    How can I get a quote?
+                                </button>
+                            </h2>
+                            <div id="f6" class="accordion-collapse collapse" data-bs-parent="#faqAcc">
+                                <div class="accordion-body">Simply call or WhatsApp us on +91 98377 05572 or +91 97192 98572, or email us at anchal.engineering.works@gmail.com. You can also fill in the enquiry form below and we will get back to you quickly.</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA BAND ═══ -->
+    <section class="cta-sec">
+        <div class="container position-relative">
+            <h2 class="df mb-3">Ready to Start Your Order?</h2>
+            <p class="mb-4 mx-auto" style="max-width:480px;">Call us, WhatsApp us, or fill in the form. We respond fast.</p>
+            <a href="tel:+919837705572" class="btn-wh me-2">Call Now</a>
+            <a href="#contact" class="btn-ol">Send Enquiry</a>
+        </div>
+    </section>
+
+    <!-- ═══ CONTACT ═══ -->
+    <section id="contact" style="background:var(--navy);" class="sp">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="sh df" style="display:block;">Get In Touch</h2>
+                <p class="sub mx-auto mt-2">We are ready to assist you. Reach out via any of the channels below.</p>
+            </div>
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+                    <div class="row g-3">
+                        <div class="col-12">
+                            <div class="cc-card">
+                                <div class="cci"><i class="bi bi-geo-alt-fill"></i></div>
+                                <h6>Factory &amp; Office</h6>
+                                <p>Kh. No. 192-214, Near Uttranchal Steel,<br>Salempur Rajputana,<br>Roorkee &ndash; 247667,<br>Haridwar, Uttarakhand (U.K.)</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cc-card">
+                                <div class="cci"><i class="bi bi-telephone-fill"></i></div>
+                                <h6>Phone / WhatsApp</h6>
+                                <p>
+                                    <a href="tel:+919837705572">+91 98377 05572</a><br>
+                                    <a href="tel:+919719298572">+91 97192 98572</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cc-card">
+                                <div class="cci"><i class="bi bi-envelope-fill"></i></div>
+                                <h6>Email</h6>
+                                <p><a href="mailto:anchal.engineering.works@gmail.com">anchal.engineering.works@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cc-card">
+                                <div class="cci"><i class="bi bi-clock-fill"></i></div>
+                                <h6>Working Hours</h6>
+                                <p>Mon &ndash; Sat: 9:00 AM &ndash; 6:30 PM<br>Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-8">
+                    <div style="background:var(--panel);border-radius:4px;padding:2rem;border-top:3px solid var(--blue);">
+                        <h5 class="df mb-4" style="font-size:1.6rem;letter-spacing:2px;">Send An Enquiry</h5>
+                        <form>
+                            <div class="row g-3">
+                                <div class="col-sm-6">
+                                    <label class="form-label">Your Name *</label>
+                                    <input type="text" class="form-control" placeholder="Full Name" required />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Company Name</label>
+                                    <input type="text" class="form-control" placeholder="Your Company (optional)" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Phone / WhatsApp *</label>
+                                    <input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX" required />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="you@email.com" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">City / Location</label>
+                                    <input type="text" class="form-control" placeholder="Your City" />
+                                </div>
+                                <div class="col-sm-6">
+                                    <label class="form-label">Service Required</label>
+                                    <select class="form-select">
+                                        <option selected disabled value="">Select Service</option>
+                                        <option>CNC Laser Cutting &ndash; MS (up to 18 MM)</option>
+                                        <option>CNC Laser Cutting &ndash; SS (up to 8 MM)</option>
+                                        <option>CNC Laser Cutting &ndash; Aluminium (up to 5 MM)</option>
+                                        <option>NC Bending of Sheet Metal</option>
+                                        <option>Power Press Machine (5 Ton &ndash; 50 Ton)</option>
+                                        <option>Sheet Shearing (up to 3 MM)</option>
+                                        <option>Lathe Machine Work</option>
+                                        <option>Fabrication</option>
+                                        <option>Other</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Message / Requirements</label>
+                                    <textarea class="form-control" rows="4" placeholder="Describe your requirement — material, thickness, quantity, dimensions, etc."></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn-pf w-100 text-center" style="border-radius:3px;display:block;padding:.75rem;">
+                                        Send Enquiry &nbsp;<i class="bi bi-send-fill"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer>
+        <div class="container">
+            <div class="row g-4 mb-4">
+
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="./logo.svg" alt="Engineering Works" width="36" height="36">
+                        <div class="fb">Anchal<span>Engineering</span></div>
+                    </div>
+                    <p class="ft">Precision sheet metal services &amp; power press operations.<br>Roorkee, Haridwar, Uttarakhand (U.K.)</p>
+                    <!-- <div class="soc mt-3">
+                        <a href="#" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+                    </div> -->
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <p class="fh">Services</p>
+                    <ul>
+                        <li><a href="#services">CNC Laser Cutting</a></li>
+                        <li><a href="#services">NC Bending</a></li>
+                        <li><a href="#services">Power Press</a></li>
+                        <li><a href="#services">Sheet Shearing</a></li>
+                        <li><a href="#services">Lathe Machine</a></li>
+                        <li><a href="#services">Fabrication</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-lg-2">
+                    <p class="fh">Company</p>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#products">Machinery</a></li>
+                        <li><a href="#why">Why Choose Us</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4">
+                    <p class="fh">Contact Us</p>
+                    <ul>
+                        <li><a href="#"><i class="bi bi-geo-alt-fill me-1" style="color:var(--blue-lt)"></i> Kh. No. 192-214, Near Uttranchal Steel, Salempur Rajputana, Roorkee &ndash; 247667, Haridwar (U.K.)</a></li>
+                        <li class="mt-2"><a href="tel:+919837705572"><i class="bi bi-telephone-fill me-1" style="color:var(--blue-lt)"></i> +91 98377 05572</a></li>
+                        <li><a href="tel:+919719298572"><i class="bi bi-telephone-fill me-1" style="color:var(--blue-lt)"></i> +91 97192 98572</a></li>
+                        <li class="mt-1"><a href="mailto:anchal.engineering.works@gmail.com"><i class="bi bi-envelope-fill me-1" style="color:var(--blue-lt)"></i> anchal.engineering.works@gmail.com</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <hr />
+
+            <div class="fbot">
+                <span>&copy; <span id="current-year"></span> Anchal Engineering Works. All Rights Reserved. | Roorkee, Haridwar, Uttarakhand</span>
+                <span>
+                    <a href="#">Privacy Policy</a> &nbsp;&middot;&nbsp;
+                    <a href="#">Terms of Use</a>
+                </span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
